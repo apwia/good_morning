@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "marginTop": 30,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#717171",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 30,
+        }
+      }
+    >
+      test title
+    </Text>
+    <RCTScrollView
+      data={
+        [
+          "text1",
+          "text2",
+          "text3",
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            style={
+              {
+                "color": "#717171",
+                "fontSize": 16,
+                "marginBottom": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            text1
+          </Text>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            style={
+              {
+                "color": "#717171",
+                "fontSize": 16,
+                "marginBottom": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            text2
+          </Text>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            style={
+              {
+                "color": "#717171",
+                "fontSize": 16,
+                "marginBottom": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            text3
+          </Text>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="link"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../app/assets/images/GitHub.png",
+          }
+        }
+        style={
+          {
+            "height": 70,
+            "width": 80,
+          }
+        }
+      />
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

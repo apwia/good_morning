@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shoud render correctly 1`] = `
+<RNDateTimePicker
+  date={123456789}
+  displayIOS="default"
+  enabled={true}
+  is24Hour={true}
+  mode="time"
+  onChange={[Function]}
+  onPickerDismiss={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+/>
+`;

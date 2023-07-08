@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shoud render correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+      "padding": 5,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#717171",
+          "flexGrow": 1,
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      Alarm Clock
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="navigateToAbout"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../app/assets/images/AboutIcon.png",
+          }
+        }
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row-reverse",
+            "height": 28,
+            "padding": 10,
+            "width": 28,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      [
+        {
+          "active": false,
+          "id": 0,
+          "periodicity": "every day",
+          "time": 1970-01-02T10:17:36.788Z,
+        },
+        {
+          "active": true,
+          "id": 1,
+          "periodicity": "every day",
+          "time": 1970-01-02T10:17:36.799Z,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            handlerTag={1}
+            handlerType="PanGestureHandler"
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onLayout={[Function]}
+            style={
+              {
+                "flex": 1,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                {
+                  "bottom": 0,
+                  "flexDirection": "row",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "transform": [
+                    {
+                      "translateX": -10000,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row-reverse",
+                    "transform": [
+                      {
+                        "scale": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      {
+                        "testUri": "../../../app/assets/images/TrashBin.png",
+                      }
+                    }
+                    style={
+                      {
+                        "height": 50,
+                        "width": 50,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+              />
+            </View>
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              handlerTag={2}
+              handlerType="TapGestureHandler"
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              pointerEvents="auto"
+              style={
+                {
+                  "transform": [
+                    {
+                      "translateX": -0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexGrow": 1,
+                    }
+                  }
+                >
+                  <Text
+                    onPress={[Function]}
+                    style={
+                      {
+                        "color": "#7f7f7f",
+                        "fontSize": 35,
+                      }
+                    }
+                  >
+                    07:17
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "#a4a4a4",
+                      }
+                    }
+                  >
+                    every day
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row-reverse",
+                      "padding": 10,
+                    }
+                  }
+                >
+                  <RCTSwitch
+                    accessibilityRole="switch"
+                    onChange={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      {
+                        "height": 31,
+                        "width": 51,
+                      }
+                    }
+                    testID="switch"
+                    value={false}
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#737373",
+              "borderBottomWidth": 0.5,
+              "marginVertical": 8,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            collapsable={false}
+            forwardedRef={[Function]}
+            handlerTag={3}
+            handlerType="PanGestureHandler"
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onLayout={[Function]}
+            style={
+              {
+                "flex": 1,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                {
+                  "bottom": 0,
+                  "flexDirection": "row",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "transform": [
+                    {
+                      "translateX": -10000,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row-reverse",
+                    "transform": [
+                      {
+                        "scale": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      {
+                        "testUri": "../../../app/assets/images/TrashBin.png",
+                      }
+                    }
+                    style={
+                      {
+                        "height": 50,
+                        "width": 50,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+              />
+            </View>
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              handlerTag={4}
+              handlerType="TapGestureHandler"
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              pointerEvents="auto"
+              style={
+                {
+                  "transform": [
+                    {
+                      "translateX": -0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexGrow": 1,
+                    }
+                  }
+                >
+                  <Text
+                    onPress={[Function]}
+                    style={
+                      {
+                        "color": "#7f7f7f",
+                        "fontSize": 35,
+                      }
+                    }
+                  >
+                    07:17
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "#a4a4a4",
+                      }
+                    }
+                  >
+                    every day
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row-reverse",
+                      "padding": 10,
+                    }
+                  }
+                >
+                  <RCTSwitch
+                    accessibilityRole="switch"
+                    onChange={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      {
+                        "height": 31,
+                        "width": 51,
+                      }
+                    }
+                    testID="switch"
+                    value={true}
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../app/assets/images/Add.png",
+          }
+        }
+        style={
+          {
+            "height": 65,
+            "width": 65,
+          }
+        }
+      />
+    </View>
+    <RNDateTimePicker
+      date={123456789}
+      displayIOS="default"
+      enabled={true}
+      is24Hour={true}
+      mode="time"
+      onChange={[Function]}
+      onPickerDismiss={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    />
+  </View>
+</RCTSafeAreaView>
+`;
